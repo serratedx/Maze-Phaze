@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{34189acd-8f77-4981-97d8-c38adfde9c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{19fe12ff-0cc2-4c32-8dc9-da80941b0331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{f40d44d7-faee-4fbf-8cd5-92fed089f16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{60a14e8c-3f11-4d3a-8a2a-47919be35010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{63ea0d93-6681-4e26-82dc-6264e8e9ee66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e068eff7-601e-4112-bfa3-8bd310bc275e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{ddd39e56-b2b2-42bf-aa23-7e475b876948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Maze">
+      <UniqueIdentifier>{20c5011d-c656-40e1-acb0-2daf44f96745}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2dSurface.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_bot2D.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_bot2D_states.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Core_Interface.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI_Manager.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="dsutil.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="dxutil.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="dxManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCore.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MazePhaze.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="WinningMenu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2d.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundCore.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="dxText.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugHeader.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEntity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2dSurface.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_bot2D.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_bot2D_states.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Core_Interface.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI_Manager.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AICoreHeaders.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameEntity.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="dsutil.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="dxutil.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="dxManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLinkedList.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverMenu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCore.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeMenu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="MazePhaze.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="WinningMenu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream_Utility_Functions.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundCore.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="states.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.h">
+      <Filter>Game\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures.h">
+      <Filter>Game\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="dxText.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieEntity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

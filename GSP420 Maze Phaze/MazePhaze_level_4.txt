@@ -1,0 +1,26 @@
+Width: 48
+Height: 23
+Tile Size: 32
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWzzzz
+zzzzWSW   W          7       7            8Wzzzz
+zzzzW W WWW WWWWWWWWWWWWW WWWWWWWWWWWWWWWW Wzzzz
+zzzzW W   W     W       W     W   W        Wzzzz
+zzzzW WWW W WWW W WWWWW WWWWW W W WWW WWWW Wzzzz
+zzzzW   W   W       WFW W     W W W      W Wzzzz
+zzzzWWW W WWW WWWWW W W W WWWWWWW WWWWWW W Wzzzz
+zzzzW   W W   W     W W W         W      W Wzzzz
+zzzzW WWW W WWW WWWWW WWWWWWWWWWWWW WWWWWW Wzzzz
+zzzzW   W W W       W W                  W8Wzzzz
+zzzzWWW W W W WWWWW W WWWWWWWW WWWWWWWWW WWWzzzz
+zzzzW   W W W   W   W W W      W       W   Wzzzz
+zzzzW WWWWW W WWWWWWW W WWWWWWWW WWWWW WWW Wzzzz
+zzzzW       W       W9          9  W       Wzzzz
+zzzzWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz

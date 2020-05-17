@@ -1,0 +1,17 @@
+Width: 16
+Height: 14
+Tile Size: 32
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz
+zzzzWWWWWWWWzzzz
+zzzzWSW   WWzzzz
+zzzzW W W WWzzzz
+zzzzW   WFWWzzzz
+zzzzWWWWWWWWzzzz
+zzzzWWWWWWWWzzzz
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzz

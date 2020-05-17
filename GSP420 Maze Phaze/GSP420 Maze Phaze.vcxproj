@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{98335010-6A9E-45F4-96BC-9A9CB5949BD0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GSP420MazePhaze</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28April 2006%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28August 2007%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2dSurface.cpp" />
+    <ClCompile Include="ai_bot2D.cpp" />
+    <ClCompile Include="ai_bot2D_states.cpp" />
+    <ClCompile Include="AI_Core_Interface.cpp" />
+    <ClCompile Include="AI_Manager.cpp" />
+    <ClCompile Include="DebugConsole.cpp" />
+    <ClCompile Include="dsutil.cpp" />
+    <ClCompile Include="dxManager.cpp" />
+    <ClCompile Include="dxText.cpp" />
+    <ClCompile Include="dxutil.cpp" />
+    <ClCompile Include="FrameTimer.cpp" />
+    <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="GameOverMenu.cpp" />
+    <ClCompile Include="InputCore.cpp" />
+    <ClCompile Include="MazeMenu.cpp" />
+    <ClCompile Include="MazePhaze.cpp" />
+    <ClCompile Include="PlayerEntity.cpp" />
+    <ClCompile Include="SoundCore.cpp" />
+    <ClCompile Include="Sprites.cpp" />
+    <ClCompile Include="Vector2d.cpp" />
+    <ClCompile Include="WindowUtils.cpp" />
+    <ClCompile Include="winmain.cpp" />
+    <ClCompile Include="WinningMenu.cpp" />
+    <ClCompile Include="ZombieEntity.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="2dSurface.h" />
+    <ClInclude Include="AICoreHeaders.h" />
+    <ClInclude Include="ai_bot2D.h" />
+    <ClInclude Include="ai_bot2D_states.h" />
+    <ClInclude Include="AI_Core_Interface.h" />
+    <ClInclude Include="AI_Manager.h" />
+    <ClInclude Include="BaseEntity.h" />
+    <ClInclude Include="BaseGameEntity.h" />
+    <ClInclude Include="DataStructures.h" />
+    <ClInclude Include="DebugConsole.h" />
+    <ClInclude Include="DebugHeader.h" />
+    <ClInclude Include="dsutil.h" />
+    <ClInclude Include="dxManager.h" />
+    <ClInclude Include="dxText.h" />
+    <ClInclude Include="dxutil.h" />
+    <ClInclude Include="FrameTimer.h" />
+    <ClInclude Include="GameMain.h" />
+    <ClInclude Include="GameOverMenu.h" />
+    <ClInclude Include="InputCore.h" />
+    <ClInclude Include="MazeGenerator.h" />
+    <ClInclude Include="MazeMenu.h" />
+    <ClInclude Include="MazePhaze.h" />
+    <ClInclude Include="MyLinkedList.h" />
+    <ClInclude Include="PlayerEntity.h" />
+    <ClInclude Include="SoundCore.h" />
+    <ClInclude Include="Sprites.h" />
+    <ClInclude Include="states.h" />
+    <ClInclude Include="Stream_Utility_Functions.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="WindowUtils.h" />
+    <ClInclude Include="WinningMenu.h" />
+    <ClInclude Include="ZombieEntity.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
